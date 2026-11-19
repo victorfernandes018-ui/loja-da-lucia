@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Loja da Lúcia | Presentes, Papelaria, Brinquedos e Moda em Campinas</title>
+<meta name="description" content="Loja da Lúcia em Campinas-SP: artigos para presentes, papelaria, brinquedos, moda masculina, feminina e infantil, aviamentos e muito mais. Av. Angelino Gregório, 80 - Jardim América.">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Yellowtail&family=Quicksand:wght@500;600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Sprite de ícones (não renderizado diretamente) -->
+<svg style="display:none" aria-hidden="true">
+  <symbol id="icon-butterfly" viewBox="0 0 24 24">
+    <path d="M12 5c-1.5-2.2-4.5-3.4-6.8-2.4C2.7 3.7 2 6.7 3.3 9.1 4.6 11.4 8 12.6 12 10.5" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M12 5c1.5-2.2 4.5-3.4 6.8-2.4 2.5 1.1 3.2 4.1 1.9 6.5-1.3 2.3-4.7 3.5-8.7 1.4" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M12 10.5c-1 1.7-3.4 5.7-2 8 .8 1.3 2 .6 2.4-1.2.2-1 .3-2.6-.4-6.8" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M12 10.5c1 1.7 3.4 5.7 2 8-.8 1.3-2 .6-2.4-1.2-.2-1-.3-2.6.4-6.8" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="12" y1="4.6" x2="12" y2="12" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+    <circle cx="12" cy="4" r="1" fill="currentColor"/>
+  </symbol>
+
+  <symbol id="icon-gift" viewBox="0 0 24 24">
+    <rect x="4" y="10" width="16" height="10" rx="1.2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/>
+    <rect x="2.5" y="7" width="19" height="4" rx="1" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/>
+    <line x1="12" y1="7" x2="12" y2="20" stroke="currentColor" stroke-width="1.7"/>
+    <path d="M12 7C10 3 5 3.3 5.3 6c.2 1.7 3.5 1.6 6.7 1z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+    <path d="M12 7c2-4 7-3.7 6.7-1-.2 1.7-3.5 1.6-6.7 1z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+  </symbol>
+
+  <symbol id="icon-book" viewBox="0 0 24 24">
+    <path d="M12 6.5c-1.6-1.4-4.6-2-8-1.6v13c3.4-.4 6.4.2 8 1.6" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M12 6.5c1.6-1.4 4.6-2 8-1.6v13c-3.4-.4-6.4.2-8 1.6" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round"/>
+    <line x1="12" y1="6.5" x2="12" y2="19.5" stroke="currentColor" stroke-width="1.7"/>
+  </symbol>
+
+  <symbol id="icon-bear" viewBox="0 0 24 24">
+    <circle cx="12" cy="14" r="6.2" fill="none" stroke="currentColor" stroke-width="1.7"/>
+    <circle cx="6.6" cy="7.4" r="2.3" fill="none" stroke="currentColor" stroke-width="1.7"/>
+    <circle cx="17.4" cy="7.4" r="2.3" fill="none" stroke="currentColor" stroke-width="1.7"/>
+    <circle cx="9.6" cy="13" r="0.9" fill="currentColor"/>
+    <circle cx="14.4" cy="13" r="0.9" fill="currentColor"/>
+    <path d="M10.6 16.3c.5.5 2.3.5 2.8 0" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+  </symbol>
+
+  <symbol id="icon-shirt" viewBox="0 0 24 24">
+    <path d="M8.5 3.5 4 7l2.4 2.6L8 8.3V20h8V8.3l1.6 1.3L20 7l-4.5-3.5c-.5.9-1.9 1.6-3.5 1.6s-3-.7-3.5-1.6z"
+      fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/>
+  </symbol>
+
+  <symbol id="icon-dress" viewBox="0 0 24 24">
+    <path d="M10 3h4v3.2l2.4 2.5L18 20H6l1.6-11.3L10 6.2z"
+      fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M10 6.2c.6.9 1.4 1.3 2 1.3s1.4-.4 2-1.3" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+  </symbol>
+
+  <symbol id="icon-onesie" viewBox="0 0 24 24">
+    <path d="M9 3h6v3l2.5 2v5c0 .8-.6 1.4-1.4 1.4H15V19c0 1.1-.9 2-2 2h-2c-1.1 0-2-.9-2-2v-4.6H7.9C7.1 14.4 6.5 13.8 6.5 13V8L9 6z"
+      fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle cx="12" cy="9.6" r="0.9" fill="currentColor"/>
+  </symbol>
+
+  <symbol id="icon-thread" viewBox="0 0 24 24">
+    <ellipse cx="8" cy="6" rx="4.2" ry="2" fill="none" stroke="currentColor" stroke-width="1.6"/>
+    <ellipse cx="8" cy="16" rx="4.2" ry="2" fill="none" stroke="currentColor" stroke-width="1.6"/>
+    <line x1="3.8" y1="6" x2="3.8" y2="16" stroke="currentColor" stroke-width="1.6"/>
+    <line x1="12.2" y1="6" x2="12.2" y2="16" stroke="currentColor" stroke-width="1.6"/>
+    <path d="M9 13c3 1 7 .5 8-3.5.8-3-1.3-5-3.2-4.7" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M18.4 15.5 20 17l-1.6 1.5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </symbol>
+
+  <symbol id="icon-sparkle" viewBox="0 0 24 24">
+    <path d="M12 2 14 10 22 12 14 14 12 22 10 14 2 12 10 10Z" fill="currentColor"/>
+  </symbol>
+
+  <symbol id="icon-pin" viewBox="0 0 24 24">
+    <path d="M12 21s7-7.2 7-12a7 7 0 0 0-14 0c0 4.8 7 12 7 12z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/>
+    <circle cx="12" cy="9" r="2.6" fill="none" stroke="currentColor" stroke-width="1.7"/>
+  </symbol>
+
+  <symbol id="icon-phone" viewBox="0 0 24 24">
+    <path d="M6.6 2.5 9.8 5.7 7.7 8.8a13 13 0 0 0 6.5 6.5l3.1-2.1 3.2 3.2-2.1 2.1c-1 1-2.6 1.4-4 .8-4.4-1.9-8.7-6.2-10.6-10.6-.6-1.4-.2-3 .8-4z"
+      fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/>
+  </symbol>
+
+  <symbol id="icon-clock" viewBox="0 0 24 24">
+    <circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.6"/>
+    <path d="M12 7v5.3l3.6 2.1" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+  </symbol>
+
+  <symbol id="icon-instagram" viewBox="0 0 24 24">
+    <rect x="2.5" y="2.5" width="19" height="19" rx="5.5" fill="none" stroke="currentColor" stroke-width="1.6"/>
+    <circle cx="12" cy="12" r="4.6" fill="none" stroke="currentColor" stroke-width="1.6"/>
+    <circle cx="17.4" cy="6.6" r="1.1" fill="currentColor"/>
+  </symbol>
+
+  <symbol id="icon-compass" viewBox="0 0 24 24">
+    <circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.6"/>
+    <path d="M15.5 8.5 13 13l-4.5 2.5L11 11z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+  </symbol>
+
+  <symbol id="icon-star" viewBox="0 0 24 24">
+    <path d="M12 2.5 14.7 9 21.8 9.6 16.4 14.2 18 21.2 12 17.4 6 21.2 7.6 14.2 2.2 9.6 9.3 9Z" fill="currentColor"/>
+  </symbol>
+
+  <symbol id="icon-arrow-right" viewBox="0 0 24 24">
+    <line x1="4" y1="12" x2="19" y2="12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    <polyline points="13 6 19 12 13 18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  </symbol>
+</svg>
+
+<a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+<header class="site-header" id="topo">
+  <div class="container header-inner">
+    <a href="#topo" class="logo">
+      <svg class="icon logo-butterfly" aria-hidden="true"><use href="#icon-butterfly"></use></svg>
+      <span class="logo-text">Loja da <em>Lúcia</em></span>
+    </a>
+
+    <nav class="main-nav" id="mainNav">
+      <a href="#produtos">Produtos</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#avaliacoes">Avaliações</a>
+      <a href="#localizacao">Localização</a>
+      <a href="#contato" class="nav-cta">Fale conosco</a>
+    </nav>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="mainNav">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="conteudo">
+
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <span class="badge"><svg class="icon" aria-hidden="true"><use href="#icon-pin"></use></svg> Jardim América · Campinas/SP</span>
+        <h1>Tem de tudo um pouco pra sua casa e sua família</h1>
+        <p class="hero-lead">
+          Artigos para presentes, papelaria e brinquedos, moda masculina, feminina e infantil,
+          aviamentos em geral — tudo pertinho de você, com atendimento de bairro há anos.
+        </p>
+        <div class="hero-actions">
+          <a href="#localizacao" class="btn btn-primary"><svg class="icon" aria-hidden="true"><use href="#icon-pin"></use></svg> Como chegar</a>
+          <a href="tel:+551932491819" class="btn btn-outline"><svg class="icon" aria-hidden="true"><use href="#icon-phone"></use></svg> (19) 3249-1819</a>
+          <a href="https://www.instagram.com/lojadalucia.barao/" target="_blank" rel="noopener" class="btn btn-ghost"><svg class="icon" aria-hidden="true"><use href="#icon-instagram"></use></svg> Instagram</a>
+        </div>
+        <div class="hero-rating">
+          <span class="stars" aria-hidden="true">
+            <svg class="icon"><use href="#icon-star"></use></svg><svg class="icon"><use href="#icon-star"></use></svg><svg class="icon"><use href="#icon-star"></use></svg><svg class="icon"><use href="#icon-star"></use></svg><svg class="icon"><use href="#icon-star"></use></svg>
+          </span>
+          <strong>4,7</strong> de nota · <span>84 avaliações no Google</span>
+        </div>
+      </div>
+
+      <div class="hero-art">
+        <div class="hero-mark" role="img" aria-label="Logo da Loja da Lúcia">
+          <svg class="hero-mark-flourish" viewBox="0 0 320 40" aria-hidden="true">
+            <path d="M10 20c30-14 60-14 90 0M220 20c30-14 60-14 90 0" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+            <circle cx="10" cy="20" r="2" fill="currentColor"/>
+            <circle cx="310" cy="20" r="2" fill="currentColor"/>
+          </svg>
+          <span class="hero-mark-text">Loja da <em>Lúcia</em></span>
+          <svg class="icon hero-mark-butterfly" aria-hidden="true"><use href="#icon-butterfly"></use></svg>
+          <span class="hero-mark-sub">Presentes · Papelaria · Moda</span>
+        </div>
+        <div class="art-card card-2" aria-hidden="true"><svg class="icon"><use href="#icon-bear"></use></svg></div>
+        <div class="art-card card-3" aria-hidden="true"><svg class="icon"><use href="#icon-book"></use></svg></div>
+        <div class="art-card card-4" aria-hidden="true"><svg class="icon"><use href="#icon-thread"></use></svg></div>
+        <div class="art-card card-5" aria-hidden="true"><svg class="icon"><use href="#icon-dress"></use></svg></div>
+        <div class="hero-circle" aria-hidden="true"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="strip">
+    <div class="container strip-inner">
+      <div class="strip-item"><strong>Seg a Sex</strong><span>08:00 – 18:00</span></div>
+      <div class="strip-item"><strong>Sábado</strong><span>08:00 – 13:00</span></div>
+      <div class="strip-item"><strong>Domingo</strong><span>Fechado</span></div>
+      <div class="strip-item"><strong>Telefone</strong><span>(19) 3249-1819</span></div>
+    </div>
+  </section>
+
+  <section id="produtos" class="section">
+    <div class="container">
+      <h2 class="section-title">O que você encontra na loja</h2>
+      <p class="section-sub">Uma loja completa para presentear, decorar, vestir e criar.</p>
+
+      <div class="grid-produtos">
+        <article class="produto-card">
+          <span class="produto-icon"><svg class="icon"><use href="#icon-gift"></use></svg></span>
+          <h3>Artigos para presentes</h3>
+          <p>Ideias de presente para todas as ocasiões e todos os gostos.</p>
+        </article>
+        <article class="produto-card">
+          <span class="produto-icon"><svg class="icon"><use href="#icon-book"></use></svg></span>
+          <h3>Papelaria</h3>
+          <p>Material escolar e de escritório para a família inteira.</p>
+        </article>
+        <article class="produto-card">
+          <span class="produto-icon"><svg class="icon"><use href="#icon-bear"></use></svg></span>
+          <h3>Brinquedos</h3>
+          <p>Diversão garantida para crianças de todas as idades.</p>
+        </article>
+        <article class="produto-card">
+          <span class="produto-icon"><svg class="icon"><use href="#icon-shirt"></use></svg></span>
+          <h3>Moda masculina</h3>
+          <p>Roupas do dia a dia com bom custo-benefício.</p>
+        </article>
+        <article class="produto-card">
+          <span class="produto-icon"><svg class="icon"><use href="#icon-dress"></use></svg></span>
+          <h3>Moda feminina</h3>
+          <p>Peças variadas para todos os estilos.</p>
+        </article>
+        <article class="produto-card">
+          <span class="produto-icon"><svg class="icon"><use href="#icon-onesie"></use></svg></span>
+          <h3>Moda infantil</h3>
+          <p>Roupinhas confortáveis e resistentes para a criançada.</p>
+        </article>
+        <article class="produto-card">
+          <span class="produto-icon"><svg class="icon"><use href="#icon-thread"></use></svg></span>
+          <h3>Aviamentos em geral</h3>
+          <p>Linhas, botões, zíperes e tudo para costura e ajustes.</p>
+        </article>
+        <article class="produto-card produto-card-cta">
+          <span class="produto-icon"><svg class="icon"><use href="#icon-sparkle"></use></svg></span>
+          <h3>Sempre tem novidade</h3>
+          <p>Acompanhe o Instagram para ver as chegadas da semana.</p>
+          <a href="https://www.instagram.com/lojadalucia.barao/" target="_blank" rel="noopener">Ver novidades <svg class="icon"><use href="#icon-arrow-right"></use></svg></a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="sobre" class="section section-alt">
+    <div class="container sobre-grid">
+      <div class="sobre-texto">
+        <h2 class="section-title">Uma loja de bairro, com carinho de família</h2>
+        <p>
+          A <strong>Loja da Lúcia</strong> fica no Jardim América, em Campinas, e é aquele
+          tipo de lugar que resolve a vida do bairro: comprou o material escolar das crianças,
+          achou aquele aviamento que faltava, encontrou o presente de última hora e ainda
+          escolheu uma roupa nova — tudo no mesmo lugar.
+        </p>
+        <p>
+          Com atendimento próximo e preços justos, a loja é referência para quem busca praticidade
+          sem abrir mão de qualidade.
+        </p>
+        <blockquote>
+          “Sempre compro o material de escola das crianças... braço bom é encontro tudo.”
+          <cite>— avaliação no Google</cite>
+        </blockquote>
+        <blockquote>
+          “Ótimo lugar para se comprar, preços bons e ótimas qualidades.”
+          <cite>— avaliação no Google</cite>
+        </blockquote>
+      </div>
+      <div class="sobre-card">
+        <h3>Loja da Lúcia</h3>
+        <ul class="info-list">
+          <li><svg class="icon"><use href="#icon-pin"></use></svg> Av. Angelino Gregório, 80 — Jardim América, Campinas - SP, 13084-415</li>
+          <li><svg class="icon"><use href="#icon-phone"></use></svg> (19) 3249-1819</li>
+          <li><svg class="icon"><use href="#icon-clock"></use></svg> Seg a Sex: 08:00–18:00 · Sáb: 08:00–13:00</li>
+          <li><svg class="icon"><use href="#icon-instagram"></use></svg> <a href="https://www.instagram.com/lojadalucia.barao/" target="_blank" rel="noopener">@lojadalucia.barao</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="avaliacoes" class="section">
+    <div class="container">
+      <h2 class="section-title">O que dizem sobre a loja</h2>
+      <div class="rating-summary">
+        <div class="rating-number">4,7</div>
+        <div>
+          <div class="stars stars-lg" aria-hidden="true">
+            <svg class="icon"><use href="#icon-star"></use></svg><svg class="icon"><use href="#icon-star"></use></svg><svg class="icon"><use href="#icon-star"></use></svg><svg class="icon"><use href="#icon-star"></use></svg><svg class="icon"><use href="#icon-star"></use></svg>
+          </div>
+          <p>84 avaliações no Google</p>
+        </div>
+      </div>
+      <div class="grid-avaliacoes">
+        <article class="avaliacao-card">
+          <div class="stars" aria-hidden="true"><svg class="icon"><use href="#icon-star"></use></svg><svg class="icon"><use href="#icon-star"></use></svg><svg class="icon"><use href="#icon-star"></use></svg><svg class="icon"><use href="#icon-star"></use></svg><svg class="icon"><use href="#icon-star"></use></svg></div>
+          <p>"Sempre compro o material de escola das crianças... braço bom é encontro tudo."</p>
+        </article>
+        <article class="avaliacao-card">
+          <div class="stars" aria-hidden="true"><svg class="icon"><use href="#icon-star"></use></svg><svg class="icon"><use href="#icon-star"></use></svg><svg class="icon"><use href="#icon-star"></use></svg><svg class="icon"><use href="#icon-star"></use></svg><svg class="icon"><use href="#icon-star"></use></svg></div>
+          <p>"Ótimo lugar para se comprar, preços bons e ótimas qualidades."</p>
+        </article>
+        <article class="avaliacao-card">
+          <div class="stars" aria-hidden="true"><svg class="icon"><use href="#icon-star"></use></svg><svg class="icon"><use href="#icon-star"></use></svg><svg class="icon"><use href="#icon-star"></use></svg><svg class="icon"><use href="#icon-star"></use></svg><svg class="icon"><use href="#icon-star"></use></svg></div>
+          <p>Loja completa, atendimento de bairro e sempre com novidades chegando.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="localizacao" class="section section-alt">
+    <div class="container loc-grid">
+      <div class="loc-info">
+        <h2 class="section-title">Onde estamos</h2>
+        <ul class="info-list info-list-lg">
+          <li><strong><svg class="icon"><use href="#icon-pin"></use></svg> Endereço</strong><span>Av. Angelino Gregório, 80 — Jardim América, Campinas - SP, 13084-415</span></li>
+          <li><strong><svg class="icon"><use href="#icon-phone"></use></svg> Telefone</strong><span><a href="tel:+551932491819">(19) 3249-1819</a></span></li>
+          <li><strong><svg class="icon"><use href="#icon-clock"></use></svg> Horário</strong><span>Segunda a sexta: 08:00–18:00<br>Sábado: 08:00–13:00<br>Domingo: fechado</span></li>
+          <li><strong><svg class="icon"><use href="#icon-instagram"></use></svg> Instagram</strong><span><a href="https://www.instagram.com/lojadalucia.barao/" target="_blank" rel="noopener">@lojadalucia.barao</a></span></li>
+        </ul>
+        <a class="btn btn-primary" target="_blank" rel="noopener"
+           href="https://www.google.com/maps/dir/?api=1&destination=Av.+Angelino+Greg%C3%B3rio,+80+-+Jardim+America,+Campinas+-+SP,+13084-415">
+           <svg class="icon"><use href="#icon-compass"></use></svg> Traçar rota no Google Maps
+        </a>
+      </div>
+      <div class="loc-map">
+        <iframe
+          title="Mapa - Loja da Lúcia"
+          src="https://www.google.com/maps?q=Av.+Angelino+Greg%C3%B3rio,+80+-+Jardim+America,+Campinas+-+SP,+13084-415&output=embed"
+          width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato" class="section cta-final">
+    <div class="container cta-final-inner">
+      <h2>Passa lá na loja ou nos chama!</h2>
+      <p>Estamos no Jardim América, em Campinas, prontos para te ajudar a encontrar o que precisa.</p>
+      <div class="hero-actions center">
+        <a href="tel:+551932491819" class="btn btn-primary"><svg class="icon"><use href="#icon-phone"></use></svg> Ligar agora</a>
+        <a href="https://www.instagram.com/lojadalucia.barao/" target="_blank" rel="noopener" class="btn btn-outline-light"><svg class="icon"><use href="#icon-instagram"></use></svg> Seguir no Instagram</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div>
+      <a href="#topo" class="logo logo-footer">
+        <svg class="icon logo-butterfly" aria-hidden="true"><use href="#icon-butterfly"></use></svg>
+        <span class="logo-text">Loja da <em>Lúcia</em></span>
+      </a>
+      <p>Presentes · Papelaria · Brinquedos · Moda · Aviamentos</p>
+    </div>
+    <div class="footer-info">
+      <p>Av. Angelino Gregório, 80 — Jardim América, Campinas - SP, 13084-415</p>
+      <p>(19) 3249-1819 · <a href="https://www.instagram.com/lojadalucia.barao/" target="_blank" rel="noopener">@lojadalucia.barao</a></p>
+    </div>
+  </div>
+  <p class="footer-copy">© <span id="ano"></span> Loja da Lúcia. Todos os direitos reservados.</p>
+</footer>
+
+<a href="tel:+551932491819" class="fab" aria-label="Ligar para a Loja da Lúcia">
+  <svg class="icon"><use href="#icon-phone"></use></svg>
+</a>
+
+<script src="js/script.js"></script>
+</body>
+</html>
